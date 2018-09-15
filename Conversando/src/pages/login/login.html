@@ -1,0 +1,90 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+    <div class="flb1">
+      <div class="Aligner-item Aligner-item--top"></div>
+      <img   src="../../assets/imgs/icon.png">
+      <div class="Aligner-item Aligner-item--bottom"></div>
+    </div>
+   </div>
+ 
+  
+
+    <ion-header>
+        <ion-navbar transparent >
+          <ion-title>Inicio de sesión</ion-title>
+        </ion-navbar>
+      </ion-header>
+    
+    <ion-content class="login-content" padding>
+      <!-- <H1>Iniciar sesion</H1> -->
+    
+      <!--imagen-->
+      <ion-row class="logo-row">
+        <ion-col></ion-col>
+        <ion-col width-67>
+          <img src="../../assets/imgs/usuario.png" />
+        </ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+
+
+      <!-- <ion-row class="logo-row">
+          <ion-col width-67>
+            <img class="Logo" src="https://image.ibb.co/igeJpH/logo.png" />
+          </ion-col>
+        </ion-row> -->
+    
+      <div class="login-box">
+        <!-- <form (ngSubmit)="login()" #registerForm="ngForm"> -->
+        <ion-row>
+          <ion-col>
+            <ion-list inset>
+    
+              <ion-item>
+                <ion-label floating>Email</ion-label>
+                <ion-input
+                [(ngModel)]="usuario.email"
+                name="email"
+                type="text"
+                autocapitalize="off"
+                required
+  
+                > </ion-input>
+              </ion-item>
+    
+              <ion-item>
+                <ion-label floating>Contraseña</ion-label>
+                <ion-input
+                [(ngModel)]="usuario.clave"
+                name="password"
+                type="password"
+                 required
+                ></ion-input>
+              </ion-item>
+            </ion-list>
+    
+          </ion-col>
+        </ion-row>
+    
+            
+        <ion-row>
+          <ion-col class="signup-col">
+            <button ion-button large full icon-left (click)="login()" class="login-btn" type="submit">
+            Iniciar sesión
+            </button>
+    
+            <button ion-button class="registrar-btn" block clear (click)="registrarUsuario()" >Registrarse</button>
+          </ion-col>
+        </ion-row>
+        <!--       
+        </form> -->
+    
+      </div>
+    
+    </ion-content>

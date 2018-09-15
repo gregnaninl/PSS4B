@@ -1,0 +1,54 @@
+page-registro {
+
+ 
+  div#logo {
+    margin-top: 25px;
+    margin-bottom: 12px;
+  }
+  .content{
+ /*    background-image:  url("../../assets/imgs/logo.jpg");*/
+   background-color: grey;
+
+  }
+
+ .item {
+    background-color:grey;
+  }
+
+  ion-label {
+    color:  rgb(75, 238, 21);
+    text-align: center;
+    margin: 0;
+  }
+
+  .label {
+    margin: 0 0 5px 0;
+  }
+
+  ion-input {
+   background-color: #fff;
+    border-radius:5px;
+    margin: 0 0 25px 0;
+  }
+
+  .login-btn{
+    background-color: rgb(75, 238, 21);
+    text-align: center;
+    margin-left: 20px;
+  }
+ 
+  .login-btn :hover{
+    background-color:rgb(70, 70, 54) !important;
+  }
+
+
+.registrar-btn{
+  color:  rgb(75, 238, 21);
+  font-size: 20px;
+}
+
+
+
+}
+
+

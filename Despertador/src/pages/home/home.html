@@ -1,0 +1,37 @@
+
+<ion-header>
+  <ion-navbar transparent>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      Despertador
+    </ion-card-header>
+  
+    <ion-list class="card" >
+      <button ion-item class="card1">
+        <ion-icon name="md-locate" item-start  ></ion-icon>
+        ubicacion
+      </button>
+  
+      <button ion-item class="card1">
+        <ion-icon name="ios-stopwatch" item-start></ion-icon>
+       horario
+      </button>
+  
+      <button ion-item class="card1">
+        <ion-icon name="ios-contacts" item-start></ion-icon>
+       contactos
+      </button>
+  
+      <button ion-item  (click)="cerrarSesion()" class="card1" >
+        <ion-icon name="md-close-circle" item-start></ion-icon>
+       cerrar sesion
+      </button>
+  
+      </ion-list>
+  </ion-card>
+</ion-content>

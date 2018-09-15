@@ -1,0 +1,37 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      Explore Nearby
+    </ion-card-header>
+  
+    <ion-list>
+      <button ion-item>
+        <ion-icon name="md-chatbubbles" item-start></ion-icon>
+        chat
+      </button>
+  
+      <button ion-item>
+        <ion-icon name="md-construct" item-start></ion-icon>
+        datos
+      </button>
+  
+      <button ion-item>
+        <ion-icon name="ios-contacts" item-start></ion-icon>
+       contactos
+      </button>
+  
+      <button ion-item  (click)="cerrarSesion()" >
+        <ion-icon name="md-close-circle" item-start></ion-icon>
+       cerrar sesion
+      </button>
+  
+      </ion-list>
+  </ion-card>
+</ion-content>

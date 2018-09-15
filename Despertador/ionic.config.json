@@ -1,0 +1,7 @@
+{
+  "name": "Despertador",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

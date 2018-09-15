@@ -1,0 +1,23 @@
+
+page-home {
+
+    ion-content{
+        background-image:  url("../../assets/imgs/fondo.jpg");
+    }
+   
+    .card{
+        background-color: green;
+        text-align: center;
+        color:white;
+
+    }
+
+    .card1{
+        background-color: gray;
+    }
+
+    .card1 :hover{
+        color: green;
+
+    }
+}
